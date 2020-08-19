@@ -1,0 +1,12 @@
+body{
+    font-family:'Open Sans',sans-serif;
+  }
+
+
+  header {
+    background-image: url('../img/bg-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding button: 10rem;
+  }
