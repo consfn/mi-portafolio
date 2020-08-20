@@ -12,18 +12,15 @@ margin: auto;
 }
 
   header {
-    margin-top: 5rem;
+    padding-top: 10rem;
+    margin-top: 200px;
     background-image: url('../img/bg_hero.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
 
- .work{
 
-width: 1280px;
-align-content: center;
- }
 
  ul li{
   display: inline-block;
@@ -35,4 +32,43 @@ footer {
   text-align: center;
   }
 
+  h1{
+    font-size: 4rem;
+    font-family:'Oswald', sans-serif;
+    font-weight: 700;
+  }
 
+  h2{
+    font-size: 3.25rem;
+    font-family:'Oswald', sans-serif;
+    font-weight: 700;
+  }
+
+  .linea{
+    width: 30%;
+    height: 2px;
+  }
+
+  .linea2{
+    width: 30%;
+    height: 2px;
+  }
+
+  .yo{
+    font-size: 4rem;
+    font-family:'Oswald', sans-serif;
+    font-weight: 200;
+
+  }
+
+  .nombre{
+    font-size: 4rem;
+    font-family:'Oswald extra-light', sans-serif;
+
+  }
+  
+  p{
+    line-height:2.5rem;
+    font-size: 1rem;
+    font-family:'Open Sans',sans-serif;
+  }
