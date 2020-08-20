@@ -27,12 +27,12 @@
 </head>
 
 <body>
+ 
+  <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+  <div class="container">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark
-  fixed-top">
-
-    <div class="container">
-      <a class="navbar-brand" href="#"><h1 class="logo">C</h1></a>
+    
+      <a class="navbar-brand text-light" href="#"><h1 class="logo">C</h1></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <!--span/icono de las líneas del navegador-->
         <span class="navbar-toggler-icon"></span>
@@ -42,16 +42,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#about">Acerca de mí</a>
+            <a class="nav-link text-light" href="#about">Acerca de mí</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#work">Trabajos</a>
+            <a class="nav-link text-light" href="#experience">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
-          </li>
+            <a class="nav-link text-light" href="#work">Trabajos</a>
+          </li>       
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
+            <a class="nav-link text-light" href="#contact">Contacto</a>
           </li>
 
         </ul>
@@ -60,19 +60,19 @@
     </div>
   </nav>
   
-  <div class="main">
+  
 
-  <header class="header text-white text-center pt-5 py-5">
+  <header class="hero-section text-white text-center pt-5 py-5">
     
-      <h1 class="display-1 font-weight-bold my-5">YO SOY</h1> 
-      <hr color="white" size="4px">
+      <h1 class="display-1 font-weight-light my-5">YO SOY</h1> 
+      <hr color="white" size="4px" class="linea1">
       <H2>MAGDALENA</H2>
    
   </header>
 
 
 
-  <div class="container">
+  <div class="descrip container" id="about">
 
    
     <div class="row my-3 pt-4 descrip">
@@ -95,10 +95,10 @@
 
 </div>
 </div>
-</div>
 
-<section id="about" class="container text-center my-5">
-  <h2 class="display-3 font-weight-bold my-4"> MI EXPERIENCIA </h2>
+
+<section class="container text-center my-5">
+  <h2 class="display-3 font-weight-bold my-4" id="experience"> EXPERIENCIA </h2>
   <hr color="black" size="3px">
 
 
@@ -119,14 +119,113 @@
       <h4 class="my-3">2014 - 2018</h4>
     </div>
 
+
   </div>
 </section>
+</div>
 
 
+<div> 
+<div class="section bg-color">
+
+  <div class="container py-5" id="work">
+  <div class="text-center text-white p-3">
+    <h1 class="display-3 font-weight-bold my-5 py-5">MIS TRABAJOS 2020</h1>
+  </div>
+
+  <hr>
+  
+
+  <div class="card-deck my-5">
+
+    <div class="card col-12 col-md-4 ">
+      <img src="assets/img/meet_coffee.png" class="trabajos card-img-top" alt="...">
+      <hr>
+      <div class="card-body">
+        <h5 class="card-title">Meet&Coffee</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+      </div>
+    </div>
+
+
+    <div class="card col-12 col-md-4">
+      <img src="assets/img/iguana_page.png" class="card-img-top img-fluid" alt="...">
+      <hr>
+      <div class="card-body">
+        <h5 class="card-title">Iguana Page</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+      </div>
+    </div>
+
+    <div class="card col-12 col-md-4">
+      <img src="assets/img/suricata.png" class="card-img-top img-fluid" alt="...">
+      <hr>
+      <div class="card-body">
+        <h5 class="card-title">Suricata</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="card-deck my-5">
+    <div class="card col-12 col-md-4 ">
+      <img src="assets/img/cuppon.png" class="card-img-top img-fluid img-work" alt="...">
+      <hr>
+      <div class="card-body">
+        <h5 class="card-title">Cuppon commerce</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+      </div>
+    </div>
+
+
+
+    <div class="card col-12 col-md-4">
+      <img src="assets/img/ricomida.png" class="card-img-top img-fluid" alt="...">
+      <hr>
+      <div class="card-body">
+        <h5 class="card-title">Ricomida</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+      </div>
+    </div>
+
+    <div class="card col-12 col-md-4">
+      <img src="assets/img/dmark.png" class="card-img-top img-fluid" alt="...">
+      <hr>
+      <div class="card-body">
+        <h5 class="card-title">Dmark</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+    </div>
+</div>
+
+</div>
+</div>
 
 </section>
 
 
+<div class="bg-white">
+  <section class="container contacto-info fbody p-5">
+    <h2 class="display-5 text-center text-dark my-4"  id="contact">Contacto</h2>
+
+    <form class>
+      <div class="form-group my-1">
+        </label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+      </div>
+
+      <div class="form-group my-1">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico">
+      </div>
+
+      <div class="text-center p-4">
+        <button type="submit" class="btn btn-light">Enviar</button>
+      </div>
+
+    </form>
+
 
 
 
@@ -143,19 +242,29 @@
 
 
 
+<footer class="footer container-fluid">
 
+<div class="icons-section">
+
+  <div class="container-fluid bg-color text-white">
+
+
+      <ul class="col-12 fila text-center my-0"  >
+
+        <li class="list group-item display-4 col-6 font-weight-bold py-5 my-5  text-center ">MAGDALENA</li>
+ 
+        <li><i class=" list group-item fab fa-cc-diners-club fa-5x my-3 pr-3"></i></li>
+
+        <li><i class="list group-item fab fa-cc-paypal fa-5x my-3 pr-3"></i></li>
+
+        <li><i class=" list group-item fab fa-cc-discover fa-5x my-3 pr-3"></i></li>
+
+        </ul>
+
+      </ul>
+  </div>
 </div>
 
-
-
-
-
-
-
-
-
-  <footer class="footer container-fluid">
-    <img src="assets/img/logo-footer.png" alt="portafolio-footer-">
   </footer>
 
 

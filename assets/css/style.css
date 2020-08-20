@@ -16,6 +16,23 @@ margin: auto;
     background-image: url('../img/bg_hero.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: center;
   }
+
+ .work{
+
+width: 1280px;
+align-content: center;
+ }
+
+ ul li{
+  display: inline-block;
+}
+.bg-color{
+  background-color:#E83E8C;
+}
+footer {
+  text-align: center;
+  }
+
 
