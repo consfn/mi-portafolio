@@ -73,7 +73,7 @@
 
 
 
-  <div class="descrip container p-5">
+  <div class="descrip container p-5" id="about">
     <h2 class="font-weight-bold my-4 text-center" id="experience"> ACERCA DE MÍ </h2>
     <hr color="black" class="linea2">
 
@@ -84,7 +84,7 @@
      
         
 
-        <div class="col-12 col-md-6"  id="about">
+        <div class="col-12 col-md-6">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
       </div>
 
@@ -100,27 +100,42 @@
 </div>
 
 
-<section class="container text-center p-3 my-5">
-  <h2 class="font-weight-bold my-4" > EXPERIENCIA </h2>
-  <hr color="black" class="linea2 ">
+<section class="container text-center text-dark pt-5 my-4 exp-" id="experience">
+  <h2 class="font-weight-bold my-4"> EXPERIENCIA </h2>
+  <hr color="black" class="linea2">
 
+   
 
-  <!--se hace un class row porque las columnas deben estar dentro de filas-->
-  <!--my-3 sirve para espaciar la imagen con el texto de forma vertical-->
+<div id="carouselExampleIndicators" class="carousel slide exp-" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
 
-  <div class="row pt-3" >
-    <div class="col-md-6">
-      <i class="fas fa-camera fa-3x my-3 pt-5"></i>
+  <div class="carousel-inner pt-5">
+    
+    <div class="carousel-item active">
+      <i class="d-block w-100 fas fa-camera fa-3x my-3" alt="First slide"></i>
       <h3 class="my-3">Stormtrooper</h3>
       <h4 class="my-3">1980 - 2014</h4>
-     
     </div>
 
-    <div class="col-md-6" id="experience">
-      <i class="fas fa-bullhorn fa-3x my-3 pt-5"></i>
-      <h3 class="my-3">Desarrolladora Rails</h3>
-      <h4 class="my-3">2014 - 2018</h4>
-    </div>
+    <div class="carousel-item">
+      <i class="d-block w-100 fas fa-camera fa-3x my-3" alt="First slide"></i>
+      <h3 class="my-3">Stormtrooper</h3>
+      <h4 class="my-3">1980 - 2014</h4>
+  </div>
+
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 
   </div>
@@ -131,7 +146,7 @@
 <div> 
 <div class="section bg-color">
 
-  <div class="container py-5" id="work">
+  <div class="container my-5 py-5" id="work">
   <div class="text-center text-white p-3">
     <h2 class="font-weight-bold my-5">MIS TRABAJOS 2020</h2>
     <hr color="white" class="linea2">
@@ -217,6 +232,11 @@
     <div class="typeform-widget" data-url="https://form.typeform.com/to/mOCPeH6Q" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=mOCPeH6Q&utm_source=typeform.com-01EFD0WR51S3GDJ3J6MDYF76PF-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
 
 </div>
+
+
+
+
+
 
 
 

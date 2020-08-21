@@ -72,3 +72,17 @@ footer {
     font-size: 1rem;
     font-family:'Open Sans',sans-serif;
   }
+
+  .carousel-indicators {
+    margin-top: 110px;
+    }
+    .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    }
+
+    .exp-{
+      background-color: rgb(224, 224, 224);
+      padding-bottom: 3rem;
+    }
